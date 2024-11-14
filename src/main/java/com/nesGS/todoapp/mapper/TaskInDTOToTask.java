@@ -8,11 +8,14 @@ import org.springframework.stereotype.Component;
 import java.time.LocalDateTime;
 
 
-// Esta clase es un Mapper que mapea un elemento de entrada "IMapper" a uno de salida "Task"
+
+// Component nos permite inyectar en nuestras clases
 @Component
 public class TaskInDTOToTask implements IMapper<TaskInDTO, Task> {
 
 
+    // Este método mapea un elemento de entrada "TaskInDTO" a uno de salida "Task",
+    // a través de la implementación de nuestra interface "IMapper".
     @Override
     public Task map(TaskInDTO in) {
         Task task = new Task();

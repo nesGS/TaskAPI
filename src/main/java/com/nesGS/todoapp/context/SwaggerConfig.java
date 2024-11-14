@@ -13,6 +13,8 @@ import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 import java.util.Collections;
 
+
+// Configuración típica de Swagger
 @Configuration
 @EnableSwagger2
 public class SwaggerConfig {
@@ -32,7 +34,7 @@ public class SwaggerConfig {
                 "La API REST de ToDo App.",
                 "v1",
                 "Terms of service",
-                new Contact("SACAViX Tech", "www.example.com", "myeaddress@company.com"),
+                new Contact("nesGS", "www.example.com", "myeaddress@company.com"),
                 "License of API", "API license URL", Collections.emptyList());
     }
 }

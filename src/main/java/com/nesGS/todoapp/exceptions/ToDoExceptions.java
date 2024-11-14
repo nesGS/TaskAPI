@@ -3,6 +3,7 @@ package com.nesGS.todoapp.exceptions;
 import lombok.Data;
 import org.springframework.http.HttpStatus;
 
+// Clase genérica que indica el formato de excepciones de la aplicación.
 @Data
 public class ToDoExceptions extends RuntimeException {
     private String message;

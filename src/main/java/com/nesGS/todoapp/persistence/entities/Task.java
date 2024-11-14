@@ -17,7 +17,7 @@ public class Task {
     private  String title;
     private  String description;
     private LocalDateTime createdDate;
-    private LocalDateTime eta;
+    private LocalDateTime eta;  // Fecha estimada de terminación
     private boolean finished;
-    private TaskStatus taskStatus;
+    private TaskStatus taskStatus;  // ON_TIME o LATE (Enum)
 }
